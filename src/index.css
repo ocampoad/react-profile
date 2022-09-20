@@ -33,9 +33,28 @@ code {
 
 .imageSize {
   height: 15vmin;
-  opacity: 0.6;
 }
 
-.imageSize:hover {
+.visibilityHiddenSibling {
+  opacity: 0.6;
+  transition: opacity .5s;
+}
+
+.visibilityHiddenSibling:hover {
   opacity: 1;
 }
+
+.visibilityHidden {
+  opacity: 0;
+  transition: opacity 1.2s;
+}
+
+.visibilityHiddenSibling:hover ~ .visibilityHidden{
+  opacity: 1;
+}
+
+.badgeSize {
+  height: 30px;
+  opacity: 0.75;
+}
+

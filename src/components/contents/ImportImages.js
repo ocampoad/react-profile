@@ -4,4 +4,5 @@ export const Kirara = require("./../../assets/images/Kirara_Hoshi_junior_high_sk
 export const Nagi = require("./../../assets/images/Nagi_Yoshino.webp")
 export const Toji = require("./../../assets/images/Toji_Fushiguro_resurrected.webp")
 export const Utahime = require("./../../assets/images/Utahime_Iori.webp")
+export const Badge = require("./../../assets/images/jujutsu_logo.webp")
 
