@@ -5,6 +5,8 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
+
+
 import AboutMe from "./contents/AboutMe"
 import Portfolio from './contents/Portfolio';
 
@@ -53,6 +55,7 @@ export default function BasicTabs() {
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs centered value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label={<span className="section">About Me</span>} {...a11yProps(0)} />
+          
           <Tab label={<span className="section">Portfolio</span>}{...a11yProps(1)} />
           <Tab label={<span className="section">Contact</span>} {...a11yProps(2)} />
           <Tab label={<span className="section">Resume</span>} {...a11yProps(3)} />

@@ -30,12 +30,12 @@ const Projects = (props) => {
     <Grid container>
       <Grid item xs className="visibilityHiddenSibling">
       <Card align="center" sx={{ minWidth: 275, maxWidth: 500, mb: 1.5 }} className="hover">
-          <div>
+        
             <a href={props.links}>
               <br />
               <img src={props.image} className="imageSize" alt={props.image} />
             </a>
-          </div>
+          
         </Card >
       </Grid>
       <Divider orientation="vertical" flexItem>
