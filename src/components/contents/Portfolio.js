@@ -48,6 +48,7 @@ const Projects = (props) => {
       <Grid item xs className="visibilityHidden">
         <Typography variant="h5" gutterBottom >
           <br />
+          <br/>
           {props.description}
         </Typography>
       </Grid>

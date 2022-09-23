@@ -9,6 +9,7 @@ import Box from '@mui/material/Box';
 
 import AboutMe from "./contents/AboutMe"
 import Portfolio from './contents/Portfolio';
+import Contact from "./contents/Contact"
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -68,7 +69,7 @@ export default function BasicTabs() {
         <Portfolio/>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        <Contact/>
       </TabPanel>
       <TabPanel value={value} index={3}>
         Item Three
