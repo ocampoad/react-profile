@@ -18,7 +18,7 @@ export default function AboutMe() {
     return (
         <Card sx={{ minWidth: 275, }}>
             <CardContent align="center"  >
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h4" gutterBottom>
                     About Me
                 </Typography>
                 <div>

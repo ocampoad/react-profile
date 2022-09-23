@@ -18,8 +18,8 @@ export default function Footer() {
   }}
 >
  <a href='mailto:ocampo.adriane13@gmail.com'><MailOutlineSharpIcon sx={{ padding:"10px", color:"black"}}/></a>
- <a href='https://github.com/ocampoad' target="_blank"><GitHubIcon sx={{ padding:"10px", color:"black"}}/></a>
- <a href='linkedin.com/in/adriane-ocampo-59341b106' target="_blank"><LinkedInIcon sx={{ padding:"10px", color:"black"}}/></a>
+ <a href='https://github.com/ocampoad' target="_blank" rel="noreferrer"><GitHubIcon sx={{ padding:"10px", color:"black"}}/></a>
+ <a href='https://linkedin.com/in/adriane-ocampo-59341b106' target="_blank" rel="noreferrer"><LinkedInIcon sx={{ padding:"10px", color:"black"}}/></a>
 </Box>
   );
 }

@@ -33,14 +33,19 @@ code {
 
 .imageSize {
   height: 15vmin;
+  
 }
 
 .visibilityHiddenSibling {
-  opacity: 0.;
+  opacity: 0.6;
   transition: opacity .5s;
 }
 
 .visibilityHiddenSibling:hover {
+  opacity: 1;
+}
+
+.visibilityHiddenSibling:hover ~ .imageSize {
   opacity: 1;
 }
 
@@ -49,12 +54,26 @@ code {
   transition: opacity 1.2s;
 }
 
-.visibilityHiddenSibling:hover ~ .visibilityHidden{
+.visibilityHiddenSibling:hover ~ .visibilityHidden {
   opacity: 1;
 }
 
 .badgeSize {
   height: 30px;
-  opacity: 0.75;
+ 
 }
 
+.divider {
+  transform: rotate(0deg);
+  transition: all 1.5s;
+  opacity: 0.6;
+}
+
+.visibilityHiddenSibling:hover ~ .divider {
+  transform: rotate(90deg);
+  transition: all 1.5s;
+}
+
+a {
+  text-decoration: none;
+}
