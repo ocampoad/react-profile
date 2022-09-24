@@ -7,14 +7,33 @@ import Divider from '@mui/material/Divider';
 
 import { Hiromi, Kenjaku, Kirara, Nagi, Toji, Utahime, Badge } from "./ImportImages"
 
-const projectlink = {
-  jobQuest: "https://jobquest.herokuapp.com/",
-  covidTracker: "https://brandonjreyes.github.io/Event-COVID-Tracker/",
-  passwordGenerator: "https://ocampoad.github.io/Password_Generator/",
-  weatherDashboard: "https://ocampoad.github.io/Weather_Dashboard/",
-  blogPostApp: "https://blogposts-adriane.herokuapp.com/",
-  noteTaker: "https://adriane-notetaker.herokuapp.com/"
+const projects = {
+  jobQuest: {
+    projectlink: "https://jobquest.herokuapp.com/",
+    description: "JobQuest description"
+  },
+  covidTracker: {
+    projectlink:  "https://brandonjreyes.github.io/Event-COVID-Tracker/",
+    description: "Covid Tracker description"
+  },
+  passwordGenerator: {
+    projectlink: "https://ocampoad.github.io/Password_Generator/",
+    description: "password generator description"
+  },
+  weatherDashboard: {
+    projectlink: "https://ocampoad.github.io/Weather_Dashboard/",
+    description: "weather dashboard description"
+  },
+  blogPostApp: {
+    projectlink: "https://blogposts-adriane.herokuapp.com/",
+    description: "Blog post description"
+  },
+  noteTaker: {
+    projectlink: "https://adriane-notetaker.herokuapp.com/",
+    description: "note taker description"
+  }
 }
+
 
 const Grid = styled(MuiGrid)(({ theme }) => ({
   width: '75%',
@@ -66,38 +85,38 @@ export default function Portfolio() {
       <Projects
         projectName="Job Quest"
         image={Utahime}
-        links={projectlink.jobQuest}
-        description=" Description here"
+        links={projects.jobQuest.projectlink}
+        description={projects.jobQuest.description}
       />
       <Projects
         projectName="Covid Tracker"
         image={Kirara}
-        links={projectlink.covidTracker}
-        description=" Description here"
+        links={projects.covidTracker.projectlink}
+        description={projects.covidTracker.description}
       />
       <Projects
         projectName="Weather Dashboard"
         image={Nagi}
-        links={projectlink.passwordGenerator}
-        description=" Description here"
+        links={projects.weatherDashboard.projectlink}
+        description={projects.weatherDashboard.description}
       />
       <Projects
         projectName="Password Generator"
         image={Toji}
-        links={projectlink.passwordGenerator}
-        description=" Description here"
+        links={projects.passwordGenerator.projectlink}
+        description={projects.passwordGenerator.description}
       />
       <Projects
         projectName="Note Taker"
         image={Hiromi}
-        links={projectlink.noteTaker}
-        description=" Description here"
+        links={projects.noteTaker.projectlink}
+        description={projects.noteTaker.description}
       />
       <Projects
         projectName="Blog Post App"
         image={Kenjaku}
-        links={projectlink.blogPostApp}
-        description=" Description here"
+        links={projects.blogPostApp.projectlink}
+        description={projects.blogPostApp.description}
       />
     </div>
   );

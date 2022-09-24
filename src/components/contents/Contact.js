@@ -5,9 +5,6 @@ import TextField from '@mui/material/TextField';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
-import FormControl, { useFormControl } from '@mui/material/FormControl';
-import { Propane } from '@mui/icons-material';
-
 
 export default function FormPropsTextFields() {
     const [email, setEmail] = useState('')
@@ -22,10 +19,10 @@ export default function FormPropsTextFields() {
         if (e.target.value && !e.target.value.match(
             /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
           )) {
-            setLabel('Please Provide A valid email address')
+            setLabel('Please enter a valid email address')
           } 
         else if(e.target.value) {
-            setLabel('Thank you')
+            setLabel('Valid')
         }
         else {
             setLabel('Required')
