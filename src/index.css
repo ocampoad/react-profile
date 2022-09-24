@@ -1,11 +1,11 @@
 @font-face {
   font-family: "OldEnglish";
-  src: local("OldEnglish"), url(./assets/SandsGreyhoodSeven-D4W0.otf);
+  src: local("OldEnglish"), url(./assets/css/SandsGreyhoodSeven-D4W0.otf);
 }
 
 @font-face {
   font-family: "JosefinSans";
-  src: local("JosefinSans"), url(./assets/JosefinSans-VariableFont_wght.ttf);
+  src: local("JosefinSans"), url(./assets/css/JosefinSans-VariableFont_wght.ttf);
 }
 
 :root {
