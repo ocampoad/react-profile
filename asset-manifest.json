@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-profile/static/css/main.dbf1637f.css",
+    "main.js": "/react-profile/static/js/main.19c7497b.js",
+    "static/media/ocampo_adriane_resume.pdf": "/react-profile/static/media/ocampo_adriane_resume.9392b109719c7eeba3ed.pdf",
+    "static/media/JosefinSans-VariableFont_wght.ttf": "/react-profile/static/media/JosefinSans-VariableFont_wght.1bfcfba29eda50476f98.ttf",
+    "static/media/SandsGreyhoodSeven-D4W0.otf": "/react-profile/static/media/SandsGreyhoodSeven-D4W0.8bc579841aaa2e678394.otf",
+    "static/media/Toji_Fushiguro_resurrected.webp": "/react-profile/static/media/Toji_Fushiguro_resurrected.040c9280ce37cc518919.webp",
+    "static/media/Kenjaku_400_years_ago.webp": "/react-profile/static/media/Kenjaku_400_years_ago.ade705611032aa3e09d4.webp",
+    "static/media/Kirara_Hoshi_junior_high_sketch.webp": "/react-profile/static/media/Kirara_Hoshi_junior_high_sketch.812a678641dcf590fc22.webp",
+    "static/media/Hiromi_Higuruma.webp": "/react-profile/static/media/Hiromi_Higuruma.8f9dc361afcc4c779989.webp",
+    "static/media/Utahime_Iori.webp": "/react-profile/static/media/Utahime_Iori.b8b94f456bc022b753e1.webp",
+    "static/media/Nagi_Yoshino.webp": "/react-profile/static/media/Nagi_Yoshino.3c692463497ef805a54c.webp",
+    "static/media/Maki_wielding_Dragon-Bone.webp": "/react-profile/static/media/Maki_wielding_Dragon-Bone.b426747234baf59a33fc.webp",
+    "static/media/jujutsu_logo.webp": "/react-profile/static/media/jujutsu_logo.ac79a4bc26214b12c0e6.webp",
+    "index.html": "/react-profile/index.html",
+    "main.dbf1637f.css.map": "/react-profile/static/css/main.dbf1637f.css.map",
+    "main.19c7497b.js.map": "/react-profile/static/js/main.19c7497b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbf1637f.css",
+    "static/js/main.19c7497b.js"
+  ]
+}
