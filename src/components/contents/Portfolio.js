@@ -87,7 +87,7 @@ export default function Portfolio() {
         Portfolio
       </Typography>
       <Projects
-        projectName="Password Generator"
+        projectName="Pawsitive Pals"
         image={Toji}
         links={projects.pawsitivePals.projectlink}
         description={projects.pawsitivePals.description}
