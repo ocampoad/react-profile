@@ -16,6 +16,10 @@ const projects = {
     projectlink:  "https://brandonjreyes.github.io/Event-COVID-Tracker/",
     description: "Covid Tracker description"
   },
+  pawsitivePals:{
+    projectlink: "https://pawsitive-pals.herokuapp.com/",
+    description: "pawsitive pals description"
+  },
   passwordGenerator: {
     projectlink: "https://ocampoad.github.io/Password_Generator/",
     description: "password generator description"
@@ -83,6 +87,12 @@ export default function Portfolio() {
         Portfolio
       </Typography>
       <Projects
+        projectName="Password Generator"
+        image={Toji}
+        links={projects.pawsitivePals.projectlink}
+        description={projects.pawsitivePals.description}
+      />
+      <Projects
         projectName="Job Quest"
         image={Utahime}
         links={projects.jobQuest.projectlink}
@@ -99,12 +109,6 @@ export default function Portfolio() {
         image={Nagi}
         links={projects.weatherDashboard.projectlink}
         description={projects.weatherDashboard.description}
-      />
-      <Projects
-        projectName="Password Generator"
-        image={Toji}
-        links={projects.passwordGenerator.projectlink}
-        description={projects.passwordGenerator.description}
       />
       <Projects
         projectName="Note Taker"
