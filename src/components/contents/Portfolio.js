@@ -10,31 +10,31 @@ import { Hiromi, Kenjaku, Kirara, Nagi, Toji, Utahime, Badge } from "./ImportIma
 const projects = {
   jobQuest: {
     projectlink: "https://jobquest.herokuapp.com/",
-    description: "JobQuest description"
+    description: "Tracks and organizes job searches and applications "
   },
   covidTracker: {
     projectlink:  "https://brandonjreyes.github.io/Event-COVID-Tracker/",
-    description: "Covid Tracker description"
+    description: "Track COVID cases at desired events by location, date or event type"
   },
   pawsitivePals:{
     projectlink: "https://pawsitive-pals.herokuapp.com/",
-    description: "pawsitive pals description"
+    description: "Provides an interface that allows users to request a play date with potential pets"
   },
   passwordGenerator: {
     projectlink: "https://ocampoad.github.io/Password_Generator/",
-    description: "password generator description"
+    description: "Generates secure passwords of desired length and layers of security"
   },
   weatherDashboard: {
     projectlink: "https://ocampoad.github.io/Weather_Dashboard/",
-    description: "weather dashboard description"
+    description: "Inquire current and upcoming weather forecast"
   },
   blogPostApp: {
     projectlink: "https://blogposts-adriane.herokuapp.com/",
-    description: "Blog post description"
+    description: "Share thoughts with friends "
   },
   noteTaker: {
     projectlink: "https://adriane-notetaker.herokuapp.com/",
-    description: "note taker description"
+    description: "Save, edit and delete notes"
   }
 }
 

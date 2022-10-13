@@ -34,17 +34,7 @@ export default function AboutMe() {
                 <Typography component="div">
                 </Typography>
                 <Typography component="body">
-                    Be{bull}nev{bull}o{bull}lent
-                </Typography>
-                <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                    /bəˈnevələnt/
-                    <br />
-                    adjective
-                </Typography>
-                <Typography variant="body">
-                    Well meaning and kindly.
-                    <br />
-                    {'"a benevolent smile"'}
+                Fullstack Developer who enjoys the creative process and problem solving with the focus of creating comprehensive and discreet web applications. Transitioning from healthcare, attentive to detail, efficient time management and adaptable to newly attained coding skills in order to excel in any developer position. 
                 </Typography>
             </CardContent>
         </Card>
