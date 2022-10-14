@@ -3,16 +3,7 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import MakiPicture from '../../assets/images/Maki_wielding_Dragon-Bone.webp'
-
-const bull = (
-    <Box
-        component="span"
-        sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
-    >
-        •
-    </Box>
-);
+import TogePicture from '../../assets/images/Screen_Shot_2021-12-20_at_10.19.19_AM_2744x.webp'
 
 export default function AboutMe() {
     return (
@@ -22,7 +13,7 @@ export default function AboutMe() {
                     About Me
                 </Typography>
                 <div>
-                    <img src={MakiPicture} alt="Profile" />
+                    <img src={TogePicture} alt="Profile" width="20%" />
                 </div>
                 <Typography variant="h4" component="div">
                     Adriane Ocampo
@@ -33,7 +24,7 @@ export default function AboutMe() {
                 <br />
                 <Typography component="div">
                 </Typography>
-                <Typography component="body">
+                <Typography component="body" width="50%">
                 Fullstack Developer who enjoys the creative process and problem solving with the focus of creating comprehensive and discreet web applications. Transitioning from healthcare, attentive to detail, efficient time management and adaptable to newly attained coding skills in order to excel in any developer position. 
                 </Typography>
             </CardContent>
