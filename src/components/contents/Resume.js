@@ -24,13 +24,14 @@ export default function Resume() {
           flexDirection: 'column'
         }}
       >
+        <a href={resumeFile} download="OcampoAdrianeResume"><Button variant="outlined" sx={{ padding:"10px"}}>Download Resume</Button></a>
         <Document 
         file={resumeFile} 
         onLoadSuccess={onDocumentLoadSuccess}
         >
-        <Page pageNumber={2} />
+        <Page pageNumber={pageNumber} />
         </Document>
-        <a href={resumeFile} download="OcampoAdrianeResume"><Button variant="outlined" sx={{ padding:"10px"}}>Download Resume</Button></a>
+        
         </Box>
     )
 }
