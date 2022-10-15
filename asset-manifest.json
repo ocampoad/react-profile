@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "./static/css/main.16bf70fe.css",
-    "main.js": "./static/js/main.7a968c48.js",
+    "main.js": "./static/js/main.6f48ad9b.js",
     "static/media/Screen_Shot_2021-12-20_at_10.19.19_AM_2744x.webp": "./static/media/Screen_Shot_2021-12-20_at_10.19.19_AM_2744x.cce0ec29248d4fc5178a.webp",
-    "static/media/ocampo_adriane_resume.pdf": "./static/media/ocampo_adriane_resume.9392b109719c7eeba3ed.pdf",
     "static/media/JosefinSans-VariableFont_wght.ttf": "./static/media/JosefinSans-VariableFont_wght.1bfcfba29eda50476f98.ttf",
     "static/media/SandsGreyhoodSeven-D4W0.otf": "./static/media/SandsGreyhoodSeven-D4W0.8bc579841aaa2e678394.otf",
     "static/media/Toji_Fushiguro_resurrected.webp": "./static/media/Toji_Fushiguro_resurrected.040c9280ce37cc518919.webp",
     "static/media/Kenjaku_400_years_ago.webp": "./static/media/Kenjaku_400_years_ago.ade705611032aa3e09d4.webp",
+    "static/media/adriane-ocampo-resume.pdf": "./static/media/adriane-ocampo-resume.34bed7a048b1b12b197a.pdf",
     "static/media/Kirara_Hoshi_junior_high_sketch.webp": "./static/media/Kirara_Hoshi_junior_high_sketch.812a678641dcf590fc22.webp",
     "static/media/Hiromi_Higuruma.webp": "./static/media/Hiromi_Higuruma.8f9dc361afcc4c779989.webp",
     "static/media/Utahime_Iori.webp": "./static/media/Utahime_Iori.b8b94f456bc022b753e1.webp",
@@ -15,10 +15,10 @@
     "static/media/jujutsu_logo.webp": "./static/media/jujutsu_logo.ac79a4bc26214b12c0e6.webp",
     "index.html": "./index.html",
     "main.16bf70fe.css.map": "./static/css/main.16bf70fe.css.map",
-    "main.7a968c48.js.map": "./static/js/main.7a968c48.js.map"
+    "main.6f48ad9b.js.map": "./static/js/main.6f48ad9b.js.map"
   },
   "entrypoints": [
     "static/css/main.16bf70fe.css",
-    "static/js/main.7a968c48.js"
+    "static/js/main.6f48ad9b.js"
   ]
 }
